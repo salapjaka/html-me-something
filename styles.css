@@ -1,0 +1,30 @@
+body {
+  text-align: left;
+  margin: 70PX 200px;
+}
+
+
+
+.reykjavik {
+  height: 300px;
+  width: auto;
+}
+
+
+.reykjavik-images {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.img-hover-zoom img {
+  transition: transform .8s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+
+.caption {
+  padding: 1em;
+}
